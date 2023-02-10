@@ -1,0 +1,132 @@
+# Datasets
+datasets/
+
+# Notebooks
+notebooks/
+old/
+
+# Private Key
+providers/satellite_images/.private-key.json
+
+# Cache of project
+.gradletasknamecache
+gradle-app.settings
+
+# Package outputs
+build/
+dist/
+*.egg-info/
+
+# Ignore Gradle GUI config
+gradle-wrapper.jar
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Debug logs
+logs/
+
+# Translations
+*.mo
+*.pot
+
+# Other directories and files to ignore
+tests/resources/
+tests/resources/raster/
+
+# Idea directories and files
+.idea/
+automatization/.idea/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# pyenv
+.python-version
+
+# celery beat schedule file
+celerybeat-schedule
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+site/
+
+# mypy
+.mypy_cache/
+
+# .gradle
+.gradle/
+
+# Debug logs
+*.log
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python/
+develop-eggs/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Flask stuff
+instance/
+.webassets-cache/
+
+# Scrapy stuff
+.scrapy/
+
+# Sphinx documentation
+docs/_build/

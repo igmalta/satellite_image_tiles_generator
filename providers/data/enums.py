@@ -1,0 +1,6 @@
+from enum import Enum
+
+
+class Satellite(Enum):
+    COPERNICUS_S2_SR = "COPERNICUS/S2_SR"
+    COPERNICUS_S2_CLOUD_PROBABILITY = "COPERNICUS/S2_CLOUD_PROBABILITY"

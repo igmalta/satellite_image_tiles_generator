@@ -1,0 +1,24 @@
+[tile_params]
+width = 512
+height = 512
+pixel_size = 10
+min_percentage_covered_geometry = 0.75
+
+[cloud_mask_params]
+cloud_filter = 70
+cloud_probability_thresh = 60
+cloud_projection_distance = 2
+nir_dark_thresh = 0.15
+buffer = 80
+
+[tasseled_cap_coefficients]
+brightness = [0.3510, 0.3813, 0.3437, 0.7196, 0.2396, 0.1949]
+vegetation = [-0.3599, -0.3533, -0.4734, 0.6633, 0.0087, -0.2856]
+wetness = [0.2578, 0.2305, 0.0883, 0.1071, -0.7611, -0.5308]
+
+[raster_files]
+path = "data/rasters"
+bands = ["B2", "B3", "B4", "B8", "B11", "B12"]
+
+[arrays_files]
+train = "data/arrays/train"
